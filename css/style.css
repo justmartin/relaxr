@@ -1,0 +1,183 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Justin Maritn
+Developer @GA in Seattle
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: "Open Sans", Arial, sans-serif;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  background-color: #131e27;
+  height: 700px;
+  margin: 0 auto;
+}
+h1{
+  font-weight: 800;
+  font-size: 48px;
+  color: white;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+h2{
+  font-weight: 600;
+  font-size: 36px;
+  color:white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.getitnow{
+  font-weight: 800;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  background: #f9e42e;
+  border-radius: 5px;
+  padding: 5px; 
+  width: 160px; 
+  margin: 0 auto;
+}
+div a{
+  text-decoration: none;
+  color: black;
+}
+.benefits{
+  background: #f0efef;
+}
+.benefitHeader{
+  font-weight: 600;
+  font-size: 40px;
+  padding-left: 150px;
+  padding-top: 70px;
+}
+.benefitText{
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 160px;
+  padding-bottom: 30px;
+}
+ul{
+  list-style-type: disc;
+  font-weight: 300;
+  font-size: 17px;
+  padding-left: 220px;
+  padding-bottom: 50px;
+}
+.quote{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  background-color: #071324;
+  height: 300px;
+  margin: 0 auto;
+}
+blockquote{
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+}
+.person{
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  font-style: bold;
+  text-align: center;
+}
+.signup {
+  background: #f9e42e;
+  height: 75px;
+  padding: 25px;
+}
+.signuplink{
+  text-align: center;
+  background: #033048;
+  border-radius: 5px;
+  padding: 5px; 
+  width: 170px; 
+  margin: 0 auto;
+}
+.signuplink a{
+  font-weight: 800;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #121212;
+  height: 300px;
+  margin: 0 auto;
+}
+.footerheading{
+  font-weight:800;
+  font-size: 36px;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+nav{
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
